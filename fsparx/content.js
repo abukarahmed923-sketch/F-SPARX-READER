@@ -68,7 +68,7 @@ answerPane.innerHTML = '<strong>Answer:</strong><p id="answerText">No answer yet
 document.body.appendChild(answerPane);
 
 async function queryCohere(question, options, context) {
-    const apiKey = 'KEY-HERE'; // !!!!!~ YOUR API KEY GOES IN THE "KEY-HERE" SECTION !!!!!!
+    const apiKey = IxPleTXDagTh60N2PnCu5mHWNKAG5cI1q4QiqiAO
     const response = await fetch('https://api.cohere.ai/generate', {
         method: 'POST',
         headers: {
